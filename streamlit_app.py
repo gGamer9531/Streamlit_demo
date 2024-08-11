@@ -3,7 +3,7 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 import torch
 
 # Load the model and tokenizer
-model_name = "path_to_your_llama_model"  # Update this with your model path
+model_name = "meta-llama/Meta-Llama-3.1-8B-Instruct"  # Update this with your model path
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 model = AutoModelForCausalLM.from_pretrained(model_name)
 
